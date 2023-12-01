@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" src="./src/styles.css" />
+  </head>
+  <body>
+    <form
+      class="form"
+      method="post"
+      action="https://www.greatfrontend.com/api/questions/contact-form"
+    >
+      <label> Name: <input type="text" name="name" /> </label>
+      <label> Email: <input type="email" name="email" /> </label>
+      <textarea id="message" name="message" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea
+      >
+      <button type="submit">Submit</button>
+    </form>
+    <!-- You can ignore this file, it is only used by GFE to
+      intercept the form submission event. -->
+    <script src="src/index.js"></script>
+  </body>
+</html>
